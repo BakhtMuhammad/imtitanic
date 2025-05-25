@@ -8,7 +8,7 @@ st.title('Titanic Survival Prediction Web App!')
 st.image('image.png', caption = 'Predict Survival on the Titanic')
 
 #Load the pretrained model
-with open('titanicpickle.pkl', 'rb') as pickleFile:
+with open('titanicp.pkl', 'rb') as pickleFile:
     model = pickle.load(pickleFile)
 
 #Function to Make Prediction
